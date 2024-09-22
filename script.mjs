@@ -25,6 +25,7 @@ const users = [
   },
 ];
 
+// Get Request
 app.get("/api/users", (req, res) => {
   try {
     res
@@ -37,6 +38,7 @@ app.get("/api/users", (req, res) => {
   }
 });
 
+// Post Request
 app.post("/api/users", (req, res) => {
   try {
     // console.log("Request Body:", req.body);
@@ -61,6 +63,7 @@ app.post("/api/users", (req, res) => {
   }
 });
 
+// Put Request
 app.put("/api/users/:id", (req, res) => {
   try {
     const userId = parseInt(req.params.id, 10);
@@ -85,6 +88,7 @@ app.put("/api/users/:id", (req, res) => {
   }
 });
 
+// Delete Request
 app.delete("/api/users/:id", (req, res) => {
   try {
     const userId = parseInt(req.params.id, 10);
