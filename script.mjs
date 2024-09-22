@@ -25,6 +25,14 @@ const users = [
   },
 ];
 
+app.get("/", (req, res) => {
+  try {
+    res.status(200).json({ message: "Fetching all users from the array", users });
+  } catch (error) {
+    res.status(500).json({ message: "An error occurred", error: error.message });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
