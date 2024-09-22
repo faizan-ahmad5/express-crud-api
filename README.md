@@ -116,8 +116,8 @@ This is a simple Express.js API for managing users, allowing you to perform basi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/faizan-ahmad5/express-crud-api.git
+   cd your-express-crud-api
    ```
 
 2. Install dependencies:
@@ -139,6 +139,3 @@ This is a simple Express.js API for managing users, allowing you to perform basi
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue.
 
-## License
-
-This project is licensed under the MIT License.
